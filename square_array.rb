@@ -6,5 +6,5 @@ def square_array(array)
   numbers.each do |number|
     squares << (number ** number)
   end
-    returns squares
+ squares
 end
