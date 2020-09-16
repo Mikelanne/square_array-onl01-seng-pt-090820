@@ -2,7 +2,10 @@ require 'pry'
 
 def square_array(array)
   numbers = [1, 2, 3]
+  squares =[]
   numbers.each do |number|
-    number ** 2
+    squares << (number ** number)
   end
 end
+
+puts squares
